@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+selenium
+tensorflow
+numpy
+keras
+transformers
+torch
+torchvision
+torchaudio
+playwright
+colorama
+stem
