@@ -30,42 +30,46 @@ This tool is ideal for **ethical hackers, penetration testers, and researchers**
 
 ---
 
-## 🔥 Installation  
-### 📌 Prerequisites  
-Ensure you have the following installed:  
-- **Python 3.8+**  
-- **Tor Service** (if using stealth mode)  
+📌 Installation & Usage Commands
 
-### 📌 Install Dependencies  
-```bash
+1️⃣ Clone the Repository
+
+git clone https://github.com/Sabirtanvir12/wslosetrer.git
+cd wslosetrer
+
+2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
-
----
-
-⚡ Usage
-
-🔍 Basic Usage
-
-python wslosetrer.py
-
-🔹 Enter the target URL when prompted
-🔹 Choose whether to use Tor (Stealth Mode)
-
-⚙️ Example Commands
-
-Extract links from a website (without Tor)
+3️⃣ Run the Tool (Without Tor)
 
 python wslosetrer.py
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: N
 
-Extract links using Tor Proxy (Anonymous Mode)
+4️⃣ Run the Tool (With Tor for Stealth Mode)
 
 python wslosetrer.py
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: Y
 
+5️⃣ View Extracted Links
+
+ls extracted_links/example.com/
+cat extracted_links/example.com/normal.txt
+
+6️⃣ Enable Tor Service (if not running)
+
+sudo systemctl start tor
+
+7️⃣ Check Tor IP Rotation (Optional)
+
+curl --socks5-hostname 127.0.0.1:9050 http://check.torproject.org
+
+8️⃣ Remove the Tool (If Needed)
+
+cd ..
+rm -rf wslosetrer
 
 ---
 
