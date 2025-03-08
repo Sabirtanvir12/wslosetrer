@@ -59,19 +59,17 @@ python3 wslosetrer.py
 ```bash
 python wslosetrer.py
 ```
-```bash
 # -->Enter Target Coordinates: https://example.com
 # -->Enable Stealth Protocol (Tor)? [y/N]: N
-``|
+
 ### **📌[+]Run the Tool (With Tor for Stealth Mode)**
 ```bash
 python wslosetrer.py
 
 ```
-```bash
 # -->Enter Target Coordinates: https://example.com
 # -->Enable Stealth Protocol (Tor)? [y/N]: Y
-```
+
 ### **📌[+]View Extracted Links**
 
 ls extracted_links/example.com/
