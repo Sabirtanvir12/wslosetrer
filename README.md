@@ -58,15 +58,18 @@ python3 wslosetrer.py
 ### **📌[+]Run the Tool (Without Tor)**
 ```bash
 python wslosetrer.py
+```
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: N
-```
+
 ### **📌[+]Run the Tool (With Tor for Stealth Mode)**
 ```bash
 python wslosetrer.py
+
+```
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: Y
-```
+
 ### **📌[+]View Extracted Links**
 
 ls extracted_links/example.com/
@@ -110,8 +113,11 @@ Extracted links are automatically saved inside a folder named after the website�
 The tool features live real-time scanning output with color-coded results!
 
 ✅ Normal Links → Green
+
 ⚠️ Hidden Links → Yellow
+
 🚫 Forbidden (403/401) → Red
+
 🔄 Redirects (301/302) → Cyan
 
 
@@ -127,7 +133,7 @@ DO NOT use it on websites without permission. The developer is not responsible f
 
 👑 Credits
 
-Developer: CyberShade (Z3R0)
-📌 GitHub Repo: WSLostEreR
+Developer: SABIR KHAN (Z3R0)
+📌 GitHub Repo: WSlosterer
 
 🔹 Stay Anonymous. Stay Ethical. 🔹
