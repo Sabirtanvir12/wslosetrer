@@ -1,5 +1,5 @@
 # 🔥 WSLOSTRER 🔥  
-**Military-Grade Link Extraction System v7.5 (PHANTOM STRIKE)**  
+**Military-Grade Link Extraction System Developed by Sabir Khan**  
 
 ![WSLostEreR](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)  
@@ -32,7 +32,7 @@ This tool is ideal for **ethical hackers, penetration testers, and researchers**
 
 📌 Installation & Usage Commands
 
-1️⃣## 🛠️ Installation & Usage  
+🛠️ Installation & Usage  
 
 ### **📌 Install & Setup**  
 ```bash
