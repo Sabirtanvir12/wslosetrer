@@ -32,45 +32,59 @@ This tool is ideal for **ethical hackers, penetration testers, and researchers**
 
 📌 Installation & Usage Commands
 
-1️⃣ Clone the Repository
+1️⃣## 🛠️ Installation & Usage  
+
+### **📌 Install & Setup**  
+```bash
 
 git clone https://github.com/Sabirtanvir12/wslosetrer.git
 cd wslosetrer
+```
 
-2️⃣ Install Dependencies
+---
 
+### **📌 Requirements Installation**  
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Tool (Without Tor)
+---
 
+### **📌 Running the Tool**  
+```bash
+python3 wslosetrer.py
+```
+
+### **📌[+]Run the Tool (Without Tor)**
+```bash
 python wslosetrer.py
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: N
-
-4️⃣ Run the Tool (With Tor for Stealth Mode)
-
+```
+### **📌[+]Run the Tool (With Tor for Stealth Mode)**
+```bash
 python wslosetrer.py
 # [?] Enter Target Coordinates: https://example.com
 # [?] Enable Stealth Protocol (Tor)? [y/N]: Y
-
-5️⃣ View Extracted Links
+```
+### **📌[+]View Extracted Links**
 
 ls extracted_links/example.com/
 cat extracted_links/example.com/normal.txt
 
-6️⃣ Enable Tor Service (if not running)
-
+## **📌[+]Enable Tor Service (if not running)**
+```bash
 sudo systemctl start tor
-
-7️⃣ Check Tor IP Rotation (Optional)
-
+```
+### **📌[+]Check Tor IP Rotation (Optional)**
+```bash
 curl --socks5-hostname 127.0.0.1:9050 http://check.torproject.org
-
-8️⃣ Remove the Tool (If Needed)
-
+```
+### **📌[+]Remove the Tool (If Needed)***
+```bash
 cd ..
 rm -rf wslosetrer
-
+```
 ---
 
 📁 Output Structure
