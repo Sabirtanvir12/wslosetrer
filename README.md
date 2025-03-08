@@ -67,8 +67,8 @@ python wslosetrer.py
 python wslosetrer.py
 
 ```
-# [?] Enter Target Coordinates: https://example.com
-# [?] Enable Stealth Protocol (Tor)? [y/N]: Y
+### **📌# [?] Enter Target Coordinates: https://example.com
+# [?] Enable Stealth Protocol (Tor)? [y/N]: Y**
 
 ### **📌[+]View Extracted Links**
 
