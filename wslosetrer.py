@@ -40,7 +40,7 @@ ascii_art = f"""
 ███████║███████╗╚██████╔╝███████║███████╗   ██║   ██║  ██║███████╗██║  ██║
 ╚══════╝╚══════╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 {Style.RESET_ALL}
-{Fore.YELLOW}Military-Grade Link Extraction System v7.5 (PHANTOM STRIKE){Style.RESET_ALL}
+{Fore.YELLOW}Military-Grade Link Extraction System. Developed by Sabir khan {Style.RESET_ALL}
 """
 
 def banner():
